@@ -1,0 +1,16 @@
+{
+  "corgis": {
+    "commit": "ff4cc903f66e683b8e464247e4437a70742a4de8",
+    "path": "website/datasets/json/billionaires/billionaires.json"
+  },
+  "fetched_at": "2026-11-08T20:40:00+00:00",
+  "rtb": {
+    "commit": "2a293c0b7059cb4daca44fe6031fb00b58580c74",
+    "upstream_updated": "2026-11-08T05:08:38.836941+00:00",
+    "profiles": 5092,
+    "monthly_lists": 84,
+    "list_rows": 226006,
+    "first_list": "2019-11-07",
+    "last_list": "2026-11-08"
+  }
+}

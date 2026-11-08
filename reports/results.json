@@ -1,0 +1,307 @@
+{
+  "overview": {
+    "snapshot": "2026-11-08",
+    "people_total": 5535,
+    "people_current": 3372,
+    "wealth_current_tn": 20.073393,
+    "countries_current": 81,
+    "women_share": 0.135528,
+    "self_made_share": 0.666667,
+    "growing_share": 0.195652,
+    "inherited_share": 0.137681,
+    "self_made_share_by_year": {
+      "1996": 0.524823,
+      "2001": 0.585502,
+      "2014": 0.69631
+    },
+    "linked_share_2014": 0.809437
+  },
+  "origin_by_country": {
+    "self_made_share_by_country": {
+      "Germany": 0.26,
+      "Italy": 0.341,
+      "Brazil": 0.387,
+      "India": 0.463,
+      "France": 0.463,
+      "Taiwan": 0.627,
+      "Hong Kong": 0.647,
+      "United States": 0.726,
+      "Canada": 0.8,
+      "United Kingdom": 0.912,
+      "Russia": 0.964,
+      "China": 0.972
+    },
+    "headcount_by_country": {
+      "United States": 942,
+      "China": 465,
+      "India": 216,
+      "Germany": 192,
+      "Russia": 140,
+      "Italy": 82,
+      "Canada": 80,
+      "Hong Kong": 68,
+      "Brazil": 62,
+      "Taiwan": 59,
+      "United Kingdom": 57,
+      "France": 54
+    }
+  },
+  "entrants_by_year": {
+    "entrants_total": 2463,
+    "entrants_by_year": {
+      "2020": 352,
+      "2021": 531,
+      "2022": 251,
+      "2023": 216,
+      "2024": 320,
+      "2025": 386,
+      "2026": 407
+    },
+    "tech_share_by_year": {
+      "2020": 0.213,
+      "2021": 0.179,
+      "2022": 0.12,
+      "2023": 0.079,
+      "2024": 0.144,
+      "2025": 0.207,
+      "2026": 0.246
+    }
+  },
+  "entry_age": {
+    "entry_age_median": 57.0,
+    "entry_age_by_industry": {
+      "Logistics": 69.0,
+      "Diversified": 62.5,
+      "Real Estate": 61.5,
+      "Construction & Engineering": 61.5,
+      "Sports": 61.0,
+      "Food & Beverage": 60.0,
+      "Energy": 60.0,
+      "Fashion & Retail": 60.0,
+      "Metals & Mining": 59.0,
+      "Manufacturing": 59.0,
+      "Healthcare": 58.5,
+      "Automotive": 58.0,
+      "Service": 57.5,
+      "Finance & Investments": 57.0,
+      "Media & Entertainment": 49.0,
+      "Technology": 48.0
+    },
+    "entry_age_by_origin": {
+      "inherited": 57.0,
+      "inherited, growing": 64.0,
+      "self-made": 57.0
+    },
+    "youngest_self_made": [
+      {
+        "name": "Adarsh Hiremath",
+        "age_at_first_seen": 22.0,
+        "first_seen_year": 2025.0,
+        "source_of_wealth": "AI Software"
+      },
+      {
+        "name": "Brendan Foody",
+        "age_at_first_seen": 22.0,
+        "first_seen_year": 2025.0,
+        "source_of_wealth": "AI Software"
+      },
+      {
+        "name": "Alexandr Wang",
+        "age_at_first_seen": 25.0,
+        "first_seen_year": 2022.0,
+        "source_of_wealth": "artificial intelligence"
+      },
+      {
+        "name": "Aman Sanger",
+        "age_at_first_seen": 25.0,
+        "first_seen_year": 2025.0,
+        "source_of_wealth": "AI software"
+      },
+      {
+        "name": "Michael Truell",
+        "age_at_first_seen": 25.0,
+        "first_seen_year": 2025.0,
+        "source_of_wealth": "AI software"
+      }
+    ],
+    "under_40_share": 0.102632
+  },
+  "wealth_tail": {
+    "pareto_alpha": 2.3878,
+    "pareto_tail_index": 1.3878,
+    "pareto_ci": [
+      1.044878,
+      1.529379
+    ],
+    "pareto_xmin": 6.846,
+    "pareto_n_tail": 596,
+    "pareto_ks": 0.027259,
+    "gini_within_list": 0.61592,
+    "top10_share": 0.136029,
+    "top1pct_share": 0.248216
+  },
+  "concentration_over_time": {
+    "top10_of_top400_by_year": {
+      "1996": 0.117,
+      "2001": 0.17,
+      "2014": 0.126,
+      "2019": 0.149,
+      "2020": 0.158,
+      "2021": 0.19,
+      "2022": 0.167,
+      "2023": 0.188,
+      "2024": 0.215,
+      "2025": 0.24,
+      "2026": 0.237
+    },
+    "rank400_cutoff_bn_by_year": {
+      "1996": 1.0,
+      "2001": 1.3,
+      "2014": 3.8,
+      "2019": 5.11,
+      "2020": 6.23,
+      "2021": 7.19,
+      "2022": 6.45,
+      "2023": 6.94,
+      "2024": 7.42,
+      "2025": 8.61,
+      "2026": 9.21
+    }
+  },
+  "growth_vs_size": {
+    "gibrat_survivors": {
+      "slope": -0.060593,
+      "se": 0.006887,
+      "n": 15339,
+      "t": -8.797967
+    },
+    "gibrat_with_exits_at_1B": {
+      "slope": -0.037348,
+      "se": 0.006578,
+      "n": 16335,
+      "t": -5.678129
+    },
+    "gibrat_with_exits_at_0_5B": {
+      "slope": 0.070313,
+      "se": 0.007577,
+      "n": 16335,
+      "t": 9.279423
+    },
+    "exit_rate_by_wealth": {
+      "under $2B": 0.128,
+      "$2-5B": 0.013,
+      "$5-20B": 0.0,
+      "over $20B": 0.0
+    },
+    "exit_rate_overall": 0.060973,
+    "median_annual_change": 0.02424,
+    "volatility_by_industry": {
+      "Automotive": 0.413,
+      "Technology": 0.396,
+      "Media & Entertainment": 0.35,
+      "Energy": 0.346,
+      "Manufacturing": 0.338,
+      "Service": 0.316,
+      "Healthcare": 0.314,
+      "Metals & Mining": 0.295,
+      "Food & Beverage": 0.286,
+      "Finance & Investments": 0.281,
+      "Fashion & Retail": 0.272,
+      "Diversified": 0.268,
+      "Logistics": 0.263,
+      "Gambling & Casinos": 0.262,
+      "Construction & Engineering": 0.261,
+      "Real Estate": 0.247,
+      "Telecom": 0.241,
+      "Sports": 0.136
+    },
+    "median_change_by_industry": {
+      "Automotive": 0.049,
+      "Technology": 0.041,
+      "Media & Entertainment": 0.017,
+      "Energy": 0.036,
+      "Manufacturing": 0.003,
+      "Service": 0.016,
+      "Healthcare": 0.006,
+      "Metals & Mining": 0.029,
+      "Food & Beverage": 0.015,
+      "Finance & Investments": 0.051,
+      "Fashion & Retail": 0.025,
+      "Diversified": 0.036,
+      "Logistics": 0.039,
+      "Gambling & Casinos": 0.015,
+      "Construction & Engineering": 0.024,
+      "Real Estate": 0.0,
+      "Telecom": 0.013,
+      "Sports": 0.093
+    }
+  },
+  "survival": {
+    "survival": {
+      "1996": {
+        "1996": 1.0,
+        "2001": 0.596,
+        "2014": 0.404,
+        "2019": 0.309,
+        "2020": 0.306,
+        "2021": 0.306,
+        "2022": 0.287,
+        "2023": 0.273,
+        "2024": 0.264,
+        "2025": 0.249,
+        "2026": 0.238
+      },
+      "2001": {
+        "2001": 1.0,
+        "2014": 0.559,
+        "2019": 0.448,
+        "2020": 0.45,
+        "2021": 0.442,
+        "2022": 0.424,
+        "2023": 0.413,
+        "2024": 0.403,
+        "2025": 0.394,
+        "2026": 0.379
+      },
+      "2014": {
+        "2014": 1.0,
+        "2019": 0.727,
+        "2020": 0.742,
+        "2021": 0.723,
+        "2022": 0.697,
+        "2023": 0.673,
+        "2024": 0.654,
+        "2025": 0.642,
+        "2026": 0.627
+      }
+    },
+    "survival_1996_by_origin": {
+      "inherited": 0.256,
+      "self-made": 0.221
+    }
+  },
+  "education": {
+    "education_known_share": 0.463227,
+    "education_levels": {
+      "bachelor": 0.419,
+      "master": 0.369,
+      "doctorate": 0.122,
+      "dropout": 0.052,
+      "diploma or below": 0.032,
+      "other": 0.006
+    },
+    "dropout_share_self_made": 0.063867,
+    "top_schools": {
+      "Harvard University": 128,
+      "Stanford University": 91,
+      "University of Pennsylvania": 45,
+      "Massachusetts Institute of Technology": 42,
+      "New York University": 26,
+      "Yale University": 26,
+      "Cornell University": 24,
+      "Columbia University": 23,
+      "University of Mumbai": 23,
+      "University of Southern California": 20
+    }
+  }
+}
