@@ -22,9 +22,9 @@
       "Italy": 0.341,
       "Brazil": 0.387,
       "India": 0.463,
-      "France": 0.463,
       "Taiwan": 0.627,
       "Hong Kong": 0.647,
+      "Australia": 0.685,
       "United States": 0.726,
       "Canada": 0.8,
       "United Kingdom": 0.912,
@@ -43,7 +43,7 @@
       "Brazil": 62,
       "Taiwan": 59,
       "United Kingdom": 57,
-      "France": 54
+      "Australia": 54
     }
   },
   "entrants_by_year": {

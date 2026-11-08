@@ -24,10 +24,10 @@ Self-made share on the historical lists (PIIE coding, not identical to Forbes'):
 | United Kingdom | 57 | 91% |
 | Canada | 80 | 80% |
 | United States | 942 | 73% |
+| Australia | 54 | 68% |
 | Hong Kong | 68 | 65% |
 | Taiwan | 59 | 63% |
 | India | 216 | 46% |
-| France | 54 | 46% |
 | Brazil | 62 | 39% |
 | Italy | 82 | 34% |
 | Germany | 192 | 26% |

@@ -295,7 +295,7 @@ def build(corgis: pd.DataFrame, profiles: list[dict], lists: pd.DataFrame) -> di
     df["source_of_wealth"] = df["source_of_wealth"].fillna(df["hist_company"])
     df["wealth_origin"] = df["wealth_origin"].fillna(df["hist_inheritance"].map(origin_from_piie))
     df["education_level"] = df["education_level"].fillna("unknown")
-    df["dropout"] = df["dropout"].fillna(False).astype(bool)
+    df["dropout"] = df["dropout"].eq(True)
 
     # ---- when did they first show up?
     rtb_first_year = pd.to_numeric(df["rtb_first_seen"].str[:4])
@@ -308,7 +308,7 @@ def build(corgis: pd.DataFrame, profiles: list[dict], lists: pd.DataFrame) -> di
     df["years_from_founding"] = df["first_seen_year"] - df["company_founded"]
     df.loc[df["years_from_founding"] < 0, "years_from_founding"] = np.nan
 
-    df["on_latest_list"] = df["on_latest_list"].fillna(False).astype(bool)
+    df["on_latest_list"] = df["on_latest_list"].eq(True)
     df["linked_across_sources"] = df["link_method"].notna()
 
     cols = [

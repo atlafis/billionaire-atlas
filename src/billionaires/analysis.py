@@ -20,6 +20,13 @@ SOURCE = "Source: Forbes World's Billionaires via PIIE/CORGIS (1996-2014) and ko
 ORIGIN_COLORS = dict(zip(ORIGINS, style.SERIES))
 
 
+def top_counts(s: pd.Series, n: int) -> pd.Series:
+    """value_counts().head(n), with ties broken alphabetically so every pandas version agrees."""
+    c = s.value_counts()
+    order = sorted(c.index, key=lambda k: (-c[k], str(k)))
+    return c.loc[order[:n]]
+
+
 @dataclass
 class Tables:
     people: pd.DataFrame
@@ -71,7 +78,7 @@ def overview(t: Tables) -> dict:
 
 def origin_by_country(t: Tables, top: int = 12) -> dict:
     cur = t.current.dropna(subset=["wealth_origin"])
-    counts = cur["country"].value_counts().head(top)
+    counts = top_counts(cur["country"], top)
     share = (pd.crosstab(cur["country"], cur["wealth_origin"], normalize="index")
              .loc[counts.index, list(ORIGINS)].sort_values(ORIGIN_SELF))
 
@@ -373,10 +380,9 @@ def education(t: Tables) -> dict:
     self_made = known[known["wealth_origin"] == ORIGIN_SELF]
     schools = cur["schools"].dropna().str.split("; ").explode().str.strip()
     schools = schools[~schools.str.contains("high school", case=False)]
-    schools = (schools.str.replace(r"^University of Pennsylvania.*", "University of Pennsylvania", regex=True)
-               .replace({"Harvard Business School": "Harvard University",
-                         "Stanford Graduate School of Business": "Stanford University"})
-               .value_counts().head(10))
+    schools = top_counts(schools.str.replace(r"^University of Pennsylvania.*", "University of Pennsylvania", regex=True)
+                         .replace({"Harvard Business School": "Harvard University",
+                                   "Stanford Graduate School of Business": "Stanford University"}), 10)
     return {"education_known_share": len(known) / len(cur),
             "education_levels": known["education_level"].value_counts(normalize=True).round(3).to_dict(),
             "dropout_share_self_made": float(self_made["dropout"].mean()),
